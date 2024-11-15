@@ -254,7 +254,7 @@ const CTA = ({ isEnglish, text, linkiD }) => {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/mqakbnob", {
+      const response = await fetch("-----", {
         method: "POST",
         body: formData,
         headers: {
